@@ -1,0 +1,526 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  margin: 0px 0px 10px;
+  font-size: 38px;
+  line-height: 37px;
+  font-weight: 300;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+h3 {
+  margin: 0px 0px 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: #9ea8a4;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.button {
+  display: inline-block;
+  padding: 14px 26px;
+  background-color: #25c485;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #b5b5b5;
+}
+
+.header {
+  height: 530px;
+  background-image: url('../images/LC_1700.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  box-shadow: inset 0 3px 0 0 #000;
+}
+
+.header.sub-page {
+  background-image: url('../images/profile-dude-blue.jpg');
+  background-position: 50% 100%;
+}
+
+.section {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  background-image: -webkit-linear-gradient(270deg, #173e13, #173e13);
+  background-image: linear-gradient(180deg, #173e13, #173e13);
+}
+
+.section.grey {
+  background-color: #f0f0f0;
+}
+
+.section.green {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #f2f7f6;
+}
+
+.nav-link {
+  display: block;
+  margin-bottom: 8px;
+  font-family: 'Luckiest Guy', sans-serif;
+  color: #bbd4b9;
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.nav-link:hover {
+  color: #166bcc;
+}
+
+.navigation {
+  position: fixed;
+  z-index: 10;
+  overflow: visible;
+  padding: 33px 19px 38px;
+  border-top: 3px solid #25c485;
+  background-color: #1c4d16;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .05);
+}
+
+.logo {
+  margin-bottom: 22px;
+  font-family: 'Luckiest Guy', sans-serif;
+  color: #4c7b37;
+  font-size: 33px;
+  line-height: 36px;
+  font-style: normal;
+  font-weight: 300;
+  text-align: right;
+  text-transform: capitalize;
+}
+
+.align-right {
+  padding-right: 25px;
+  text-align: right;
+}
+
+.image {
+  margin-bottom: 20px;
+}
+
+.thumbnail {
+  max-width: 100%;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  border: 1px none #000;
+  border-radius: 0px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .06);
+}
+
+.journal-entry {
+  display: block;
+  margin-bottom: 19px;
+  padding: 18px 20px;
+  border: 1px solid #dce6e4;
+  -webkit-transition: background-color 300ms ease;
+  transition: background-color 300ms ease;
+  color: #333;
+  text-decoration: none;
+}
+
+.journal-entry:hover {
+  background-color: #f2f7f6;
+}
+
+.logo-link {
+  color: #333;
+  text-decoration: none;
+}
+
+.field {
+  height: 53px;
+  border: 1px solid #d1e6dd;
+  box-shadow: inset 0 1px 0 0 transparent;
+}
+
+.field:focus {
+  border-color: #24c786;
+  box-shadow: inset 0 0 8px 0 transparent;
+}
+
+.field.comments {
+  height: 101px;
+}
+
+.success {
+  padding: 47px;
+  background-color: #e3e3e3;
+  color: #000;
+  text-align: center;
+}
+
+.heading {
+  color: #9ea8a4;
+}
+
+.heading-2 {
+  color: #9ea8a4;
+}
+
+.heading-3 {
+  color: #9ea8a4;
+}
+
+.heading-4 {
+  color: #9ea8a4;
+}
+
+.image-2 {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.paragraph {
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.heading-5 {
+  padding-top: 5px;
+  color: #bbd4b9;
+}
+
+.heading-6 {
+  padding-top: 5px;
+  color: #bbd4b9;
+}
+
+.heading-7 {
+  padding-top: 5px;
+  color: #bbd4b9;
+}
+
+.heading-8 {
+  padding-top: 5px;
+  color: #bbd4b9;
+}
+
+.link {
+  color: #25c485;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.heading-9 {
+  display: block;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-family: 'Luckiest Guy', sans-serif;
+  color: #25c485;
+  text-align: center;
+}
+
+.row {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.image-3 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.paragraph-2 {
+  text-align: center;
+}
+
+.link-block {
+  display: block;
+  margin-right: 275px;
+  margin-left: 275px;
+}
+
+.link-block-2 {
+  display: block;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.paragraph-3 {
+  text-align: justify;
+}
+
+.paragraph-4 {
+  text-align: justify;
+}
+
+.paragraph-5 {
+  text-align: justify;
+}
+
+.paragraph-6 {
+  text-align: justify;
+}
+
+.paragraph-7 {
+  text-align: justify;
+}
+
+.paragraph-8 {
+  text-align: justify;
+}
+
+.paragraph-9 {
+  text-align: center;
+}
+
+.paragraph-10 {
+  margin-top: 40px;
+}
+
+.div-block {
+  padding: 18px 20px;
+  border: 1px solid #dce6e4;
+}
+
+.heading-10 {
+  color: #768280;
+  font-size: 12px;
+  text-align: center;
+}
+
+.image-4 {
+  padding-right: 10px;
+  float: left;
+}
+
+.image-5 {
+  padding-right: 10px;
+  float: left;
+}
+
+.important-text-2 {
+  color: #dedb22;
+}
+
+.important-text-3 {
+  color: #dedb22;
+}
+
+.important-text-4 {
+  color: #dedb22;
+}
+
+.image-6 {
+  padding-right: 10px;
+  float: left;
+}
+
+.image-7 {
+  padding-right: 10px;
+  float: left;
+}
+
+.link-2 {
+  color: #25c485;
+}
+
+.link-3 {
+  color: #25c485;
+}
+
+.link-4 {
+  color: #25c485;
+}
+
+@media (max-width: 991px) {
+  .header {
+    background-position: 50% 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+  .align-right {
+    padding-right: 10px;
+  }
+  .heading-9 {
+    font-size: 32px;
+  }
+  .link-block-2 {
+    display: block;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    height: auto;
+    background-position: 50% 50%;
+    background-attachment: scroll;
+  }
+  .section {
+    padding-top: 29px;
+    padding-bottom: 29px;
+  }
+  .nav-link {
+    color: #9ea8a4;
+  }
+  .nav-link.w--current {
+    color: #9ea8a4;
+  }
+  .navigation {
+    position: static;
+    width: 38%;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgba(147, 69, 69, .3);
+    box-shadow: 0 0 0 1px transparent;
+  }
+  .logo {
+    color: #e74e81;
+    text-decoration: none;
+  }
+  .align-right {
+    text-align: left;
+  }
+  .thumbnail {
+    margin-right: 14px;
+    margin-bottom: 15px;
+  }
+  .heading-9 {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .link-block-2 {
+    margin-right: 75px;
+    margin-left: 75px;
+  }
+}
+
+@media (max-width: 479px) {
+  .navigation {
+    width: 45%;
+    background-color: rgba(147, 69, 69, .3);
+  }
+  .logo {
+    font-size: 22px;
+  }
+  .heading-5 {
+    font-size: 28px;
+  }
+  .heading-6 {
+    font-size: 28px;
+  }
+  .heading-7 {
+    font-size: 28px;
+  }
+  .heading-8 {
+    font-size: 28px;
+  }
+  .heading-9 {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 24px;
+  }
+  .link-block-2 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
